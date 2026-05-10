@@ -33,229 +33,137 @@ layout: null
 
 :root {
 
---accent: #111;
-
---text: #111;
-
---line: #666;
-
---line-hover: #111;
-
---bg: #ffffff;
+  --accent: #111;
+  --text: #111;
+  --line: #666;
+  --line-hover: #111;
+  --bg: #ffffff;
 
 }
 
 * {
 
-box-sizing: border-box;
+  box-sizing: border-box;
 
 }
 
 body {
 
-margin: 0;
-
-background: var(--bg);
-
-color: var(--text);
-
-font-family: "jimbo-std-expanded", sans-serif;
-
-font-weight: 400;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "jimbo-std-expanded", sans-serif;
+  font-weight: 400;
 
 }
 
 .intro {
 
-min-height: 100vh;
-
-display: flex;
-
-flex-direction: column;
-
-justify-content: center;
-
-align-items: center;
-
-text-align: center;
-
-padding: 80px 32px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 120px 32px 90px;
 
 }
 
 h1 {
 
-font-family: "jimbo-std-expanded", sans-serif;
-
-font-size: 90px;
-
-line-height: 1;
-
-margin: 0 0 40px 0;
-
-text-align: center;
+  font-family: "jimbo-std-expanded", sans-serif;
+  font-size: 90px;
+  line-height: 1;
+  margin: 0 0 40px 0;
+  text-align: center;
 
 }
 
 p {
 
-margin: 0 0 120px;
-
-color: var(--text);
-
-font-size: 1.5rem;
-
-letter-spacing: 0;
-
-line-height: 1.8;
-
-font-family: "jimbo-std-expanded", sans-serif;
+  margin: 0 0 120px;
+  color: var(--text);
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  line-height: 1.8;
+  font-family: "jimbo-std-expanded", sans-serif;
 
 }
 
 .walk-link {
 
-position: relative;
-
-display: inline-block;
-
-color: var(--accent);
-
-text-decoration: none;
-
-font-size: 50px;
-
-letter-spacing: 0;
-
-padding-bottom: 14px;
-
-transition: all 0.3s ease;
-
-font-family: "jimbo-std-expanded", sans-serif;
-
-font-weight: 400;
+  position: relative;
+  display: inline-block;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 50px;
+  letter-spacing: 0;
+  padding-bottom: 14px;
+  transition: all 0.3s ease;
+  font-family: "jimbo-std-expanded", sans-serif;
+  font-weight: 400;
 
 }
 
 .walk-link:hover {
 
-color: #888;
-
-transform: translateY(3px);
+  color: #888;
+  transform: translateY(3px);
 
 }
 
 .walk-link::after {
 
-content: "";
-
-position: absolute;
-
-left: 0;
-
-bottom: 0;
-
-width: 100%;
-
-height: 1px;
-
-background: var(--line);
-
-transition: background 0.3s ease;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--line);
+  transition: background 0.3s ease;
 
 }
 
 .walk-link:hover::after {
 
-background: var(--line-hover);
+  background: var(--line-hover);
 
 }
 
 .random-note {
 
-margin-top: 13px;
-
-font-size: 13px;
-
-line-height: 1.7;
-
-color: #777;
-
-font-family: "jimbo-std-expanded", sans-serif;
-
-letter-spacing: 0.2px;
+  margin-top: 13px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #777;
+  font-family: "jimbo-std-expanded", sans-serif;
+  letter-spacing: 0.2px;
 
 }
 
 .mobile-copy {
 
-display: none;
+  display: none;
 
 }
 
 footer {
 
-margin-top: 220px;
-
-font-size: 18px;
-
-color: var(--text);
-
-letter-spacing: 0;
-
-font-family: "jimbo-std-expanded", sans-serif;
-
-font-weight: 400;
-
-}
-
-@media (min-width: 768px) {
-
-footer {
-
-margin-top: 90px;
-
-}
+  margin-top: 90px;
+  font-size: 18px;
+  color: var(--text);
+  letter-spacing: 0;
+  font-family: "jimbo-std-expanded", sans-serif;
+  font-weight: 400;
 
 }
 
 @media (max-width: 767px) {
 
-footer {
-
-display: none;
-
-}
-
-h1 {
-
-font-size: 72px;
-
-}
-
-.walk-link {
-
-font-size: 42px;
-
-}
-
-.mobile-copy {
-
-display: block;
-
-margin-top: -18px;
-
-font-size: 16px;
-
-color: #777;
-
-}
-
-.random-note {
-
-font-size: 13px;
-
-line-height: 1.1;
+  body {
+    display: none;
+  }
 
 }
 
@@ -272,7 +180,6 @@ line-height: 1.1;
 <p>
 
 写真と言葉<br>
-
 photos and words
 
 </p>
@@ -288,7 +195,6 @@ begin
 <p class="random-note">
 
 ランダムに表示されます<br>
-
 Pages appear randomly
 
 </p>
