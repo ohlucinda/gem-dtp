@@ -2,4 +2,4 @@ theme: null
 remote_theme: null
 title: " "
 # これを追加
-baseurl: "/gem-dtp"
+baseurl: ""
