@@ -1,5 +1,6 @@
 theme: null
 remote_theme: null
 title: " "
-# これを追加
+
+url: https://gemdtp.ohlucinda.com
 baseurl: ""
