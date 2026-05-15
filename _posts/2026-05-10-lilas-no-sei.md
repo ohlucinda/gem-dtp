@@ -1,7 +1,7 @@
 ---
 layout: post
 title: リラの精
-image: lilas.jpg
+image: lilas-no-sei.jpg
 ---
 
 ほどける
