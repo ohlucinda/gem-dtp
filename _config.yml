@@ -1,6 +1,7 @@
 theme: null
 remote_theme: null
-title: " "
+title: "gem"
+description: "Random Photos and words"
 
 url: https://gemdtp.ohlucinda.com
 baseurl: ""
