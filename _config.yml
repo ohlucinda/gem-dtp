@@ -4,3 +4,6 @@ title: " "
 
 url: https://gemdtp.ohlucinda.com
 baseurl: ""
+
+plugins:
+  - jekyll-sitemap
