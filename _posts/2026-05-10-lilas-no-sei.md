@@ -7,7 +7,7 @@ permalink: /lilasnosei/
 
 ほどける
 
-中心から
+外から
 
 奥から
 
