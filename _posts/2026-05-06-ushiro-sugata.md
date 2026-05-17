@@ -2,7 +2,7 @@
 layout: post
 title: 後ろ姿
 image: ushiro-sugata.jpg
-permalink: /ushirosugata/
+permalink: /ushiro-sugata/
 ---
 
 薔薇の後ろ姿って
