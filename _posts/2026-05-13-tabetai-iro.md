@@ -14,5 +14,3 @@ permalink: tabetai-iro
 舌が震えるような濃さ
 
 味覚を刺激してくる
-
-不思議な魅力
