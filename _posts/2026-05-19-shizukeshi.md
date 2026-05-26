@@ -2,7 +2,7 @@
 layout: post
 title: 静けし
 image: shizukeshi.jpg
-permalink: shizukeshi
+permalink: /shizukeshi/
 ---
 
 ひそひそ
