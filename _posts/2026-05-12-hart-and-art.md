@@ -2,7 +2,7 @@
 layout: post
 title: ハートとアート
 image: heart&art.jpg
-permalink: heart-to-art
+permalink: /heart-to-art/
 ---
 
 ハートには
