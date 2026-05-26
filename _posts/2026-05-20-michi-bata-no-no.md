@@ -2,7 +2,7 @@
 layout: post
 title: 道端の野 
 image: michi-bata-no-no.jpg
-permalink: michi-bata-no-no
+permalink: /michi-bata-no-no/
 ---
 
 野の濃さ
