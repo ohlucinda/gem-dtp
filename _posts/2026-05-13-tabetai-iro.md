@@ -2,7 +2,7 @@
 layout: post
 title: 食べたい色
 image: tabetai-iro.jpg
-permalink: tabetai-iro
+permalink: /tabetai-iro/
 ---
 
 ギュッと鮮やかなパープル
