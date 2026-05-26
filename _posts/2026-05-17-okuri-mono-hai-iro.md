@@ -2,7 +2,7 @@
 layout: post
 title: 贈り物 - 灰色
 image: okuri-mono-hai-iro.jpg
-permalink: okuri-mono-hai-iro
+permalink: /okuri-mono-hai-iro/
 ---
 小さな骨
 
