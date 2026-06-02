@@ -1,0 +1,26 @@
+---
+layout: post
+title: 美による支配
+image: bi-ni-yoru-shihai.jpg
+permalink:  /bi-ni-yoru-shihai
+---
+
+従ってしまう
+
+美が完成しているから
+
+逆らう感覚が薄れていく
+
+<br><br>
+
+真紅で
+
+重厚で
+
+完璧に巻いていて
+
+<br><br>
+
+誘惑というより
+
+美による支配
