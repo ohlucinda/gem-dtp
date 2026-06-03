@@ -40,7 +40,10 @@ https://gem.ohlucinda.com{{ post.url }}
 </pubDate>
 
 <description>
+<![CDATA[
+<img src="https://gem.ohlucinda.com/images/{{ post.image }}" />
 {{ post.content | strip_html | truncate: 200 }}
+]]>
 </description>
 
 </item>
