@@ -6,12 +6,12 @@ layout: null
 
   <channel>
 
-    <title>gemdtp</title>
+    <title>gem</title>
 
     <link>https://gemdtp.ohlucinda.com/</link>
 
     <description>
-      gemdtp by OHLUCINDA
+      gem by OHLUCINDA
     </description>
 
     <image>
@@ -20,7 +20,7 @@ layout: null
         https://gemdtp.ohlucinda.com/apple-touch-icon.png
       </url>
 
-      <title>gemdtp</title>
+      <title>gem</title>
 
       <link>https://gemdtp.ohlucinda.com/</link>
 
