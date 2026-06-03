@@ -8,7 +8,7 @@ layout: null
 
     <title>gem</title>
 
-    <link>https://gemdtp.ohlucinda.com/</link>
+    <link>https://gem.ohlucinda.com/</link>
 
     <description>
       gem by OHLUCINDA
@@ -17,17 +17,17 @@ layout: null
     <image>
 
       <url>
-        https://gemdtp.ohlucinda.com/apple-touch-icon.png
+        https://gem.ohlucinda.com/apple-touch-icon.png
       </url>
 
       <title>gem</title>
 
-      <link>https://gemdtp.ohlucinda.com/</link>
+      <link>https://gem.ohlucinda.com/</link>
 
     </image>
 
     <webfeeds:icon>
-      https://gemdtp.ohlucinda.com/apple-touch-icon.png
+      https://gem.ohlucinda.com/apple-touch-icon.png
     </webfeeds:icon>
 
     <webfeeds:accentColor>
@@ -41,7 +41,7 @@ layout: null
       <title>{{ post.title }}</title>
 
       <link>
-        https://gemdtp.ohlucinda.com{{ post.url }}
+        https://gem.ohlucinda.com{{ post.url }}
       </link>
 
       <description>
