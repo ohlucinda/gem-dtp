@@ -4,12 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script>
-    // Keep direct links to gem works readable on either screen size.
-    if (window.innerWidth < 700) {
-      window.location.replace("https://gem-mobile.ohlucinda.com" + window.location.pathname + window.location.search + window.location.hash);
-    }
-  </script>
 
   <title>
 {% if page.title %}
@@ -121,6 +115,10 @@ photos and words
 
    }
     
+
+    @media (max-width: 699px) {
+      .content { margin-top: 40px; }
+    }
 
   </style>
 
