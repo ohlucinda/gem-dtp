@@ -257,7 +257,14 @@ const posts = [
 
 const randomPost = posts[Math.floor(Math.random() * posts.length)];
 
-document.getElementById("random-post-link").href = randomPost;
+const incomingLang=new URLSearchParams(location.search).get('from_lang');
+const gemLang=incomingLang==='en'?'en':incomingLang==='ja'?'ja':null;
+if(gemLang){try{sessionStorage.setItem('gem-origin-language',gemLang)}catch(e){}}
+let rememberedLang=gemLang;
+if(!rememberedLang){try{rememberedLang=sessionStorage.getItem('gem-origin-language')}catch(e){}}
+document.getElementById("random-post-link").href = randomPost+(rememberedLang?'?from_lang='+rememberedLang:'');
+const originLink=document.querySelector('.footer-links a[href="https://ohlucinda.com"]');
+if(originLink&&rememberedLang)originLink.href='https://ohlucinda.com/?lang='+rememberedLang;
 
 </script>
 
