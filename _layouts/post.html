@@ -171,7 +171,11 @@ photos and words
 
       const randomNext = filtered[Math.floor(Math.random() * filtered.length)];
 
-      document.getElementById("random-next-link").href = randomNext;
+      const suppliedLang=new URLSearchParams(location.search).get('from_lang');
+      if(suppliedLang==='en'||suppliedLang==='ja'){try{sessionStorage.setItem('gem-origin-language',suppliedLang)}catch(e){}}
+      let originLang=suppliedLang==='en'||suppliedLang==='ja'?suppliedLang:null;
+      if(!originLang){try{originLang=sessionStorage.getItem('gem-origin-language')}catch(e){}}
+      document.getElementById("random-next-link").href = randomNext+(originLang?'?from_lang='+originLang:'');
     </script>
 
 <footer>
