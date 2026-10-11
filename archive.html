@@ -104,6 +104,27 @@ color: #888;
 
 }
 
+@media (max-width: 699px) {
+  body {
+    margin: 40px 24px;
+    padding: 0;
+    min-height: auto;
+    display: block;
+    background-image: url('https://gem-mobile.ohlucinda.com/archive-bg-m.jpg');
+    background-position: center 20%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+  }
+  h1 { margin-bottom: 25px; text-align: center; }
+  .back-link { margin-top: -20px; margin-bottom: 40px; }
+  .post-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 30px;
+    padding: 0;
+  }
+  .post-list a { font-size: 18px; }
+}
+
 </style>
 
 </head>
